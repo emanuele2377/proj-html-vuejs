@@ -52,12 +52,81 @@
             </div>
         </section>
         <section class=" back2" style="text-align: center; padding-top: 10%;">
-            <div>Trending Battle</div>
-            <div>Keep Eyes &</div>
-            <div>Manage Upcoming</div>
-            <div>Battle</div>
+            <div style="color: rgb(148, 203, 83); font-size: 2.3rem;">Trending Battle</div>
+            <div style="font-size: 4.5rem;">Keep Eyes &</div>
+            <div style="font-size: 4.5rem;">Manage Upcoming</div>
+            <div style="font-size: 4.5rem;">Battle</div>
             <div>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,</div>
             <div>convallis at tellus. Cras ultricies ligula sed magna dictum porta.</div>
+            <section class=" container-fluid row">
+                <div class="col-6">
+                    <div class="box"><img src="../assets/img/game-img-1.png" alt="">
+                        <img class="ps-2 pe-2" src="../assets/img/verus-icon.png" alt="">
+                        <img src="../assets/img/game-img-2.png" alt="">
+                        <div class="container-fluid testo">
+                            <h5>Call Of Deauty</h5>
+                            <div style="color: rgb(148, 203, 83);">December 25, 2022 4:00 PM</div>
+                        </div>
+                        <div class="pt-4 pb-4">
+                            <span class="pe-3"><img src="../assets/img/icon/youtube-icon.png" alt="">Youtube </span>
+                            <span><img src="../assets/img/icon/twitch-icon.png" alt="">Twich </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="box"><img src="../assets/img/game-img-3.png" alt="">
+                        <img class="ps-2 pe-2" src="../assets/img/verus-icon.png" alt="">
+                        <img src="../assets/img/game-img-4.png" alt="">
+                        <div class="container-fluid testo">
+                            <h5>Legendary Battles</h5>
+                            <div style="color: rgb(148, 203, 83);">December 25, 2022 4:00 PM</div>
+                        </div>
+                        <div class="pt-4 pb-4">
+                            <span class="pe-3"><img src="../assets/img/icon/youtube-icon.png" alt="">Youtube </span>
+                            <span><img src="../assets/img/icon/twitch-icon.png" alt="">Twich </span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class=" container-fluid row">
+                <div class="col-6">
+                    <div class="box"><img src="../assets/img/game-img-5.png" alt="">
+                        <img class="ps-2 pe-2" src="../assets/img/verus-icon.png" alt="">
+                        <img src="../assets/img/game-img-6.png" alt="">
+                        <div class="container-fluid testo">
+                            <h5>Nay Corral Gundown</h5>
+                            <div style="color: rgb(148, 203, 83);">December 25, 2022 4:00 PM
+                            </div>
+                        </div>
+                        <div class="pt-4 pb-4">
+                            <span class="pe-3"><img src="../assets/img/icon/youtube-icon.png" alt="">Youtube </span>
+                            <span><img src="../assets/img/icon/twitch-icon.png" alt="">Twich </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="box"><img src="../assets/img/game-img-7.png" alt="">
+                        <img class="ps-2 pe-2" src="../assets/img/verus-icon.png" alt="">
+                        <img src="../assets/img/game-img-8.png" alt="">
+                        <div class="container-fluid testo">
+                            <h5>League Of Legends</h5>
+                            <div style="color: rgb(148, 203, 83);">December 25, 2022 4:00 PM</div>
+                        </div>
+                        <div class="pt-4 pb-4">
+                            <span class="pe-3"><img src="../assets/img/icon/youtube-icon.png" alt="">Youtube </span>
+                            <span><img src="../assets/img/icon/twitch-icon.png" alt="">Twich </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <button class="btn">VIEW ALL MATCH >> </button>
+
         </section>
     </main>
 </template>
@@ -99,7 +168,36 @@
 .back2 {
     background-color: rgb(34, 40, 51);
     width: 100%;
-    height: 1100px;
+    height: 1700px;
     color: white;
+}
+</style>
+
+<style scoped>
+.box {
+    margin-top: 4%;
+    border-radius: 20px;
+    background-color: #283449;
+    border: 1px solid #556f9c;
+    padding-top: 13%;
+}
+</style>
+
+<style scoped>
+.testo {
+    background-color: #30405f;
+    padding: 5%;
+    margin-top: 11%;
+}
+</style>
+
+<style scoped>
+.btn {
+    background-color: rgb(7, 204, 124);
+    margin-top: 8%;
+    width: 23%;
+    height: 3%;
+    padding: 5px;
+    border-radius: 30px;
 }
 </style>

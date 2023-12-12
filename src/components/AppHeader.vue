@@ -159,7 +159,7 @@ header {
 .btn {
     background-color: rgb(7, 204, 124);
     margin-top: 8%;
-    width: 45%;
+    width: 50%;
     height: 18%;
     padding: 5px;
     border-radius: 30px;
