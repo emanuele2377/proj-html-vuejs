@@ -5,6 +5,7 @@ import AppFooter from './components/AppFooter.vue'
 import { store } from "./store.js" //state management
 
 
+
 export default {
   components: {
     AppHeader,
@@ -29,7 +30,9 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+  <AppHeader />
+</template>
 
 <style scoped></style>
 
