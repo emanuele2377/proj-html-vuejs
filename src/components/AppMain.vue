@@ -1,4 +1,22 @@
 <script>
+import Swiper from 'swiper';
+
+export default {
+    name: "AppMain",
+    data() {
+        return {
+            store
+        }
+    },
+    mounted() {
+
+
+
+    },
+    methods: {
+
+    }
+}
 </script>
 
 
@@ -124,10 +142,55 @@
                     </div>
                 </div>
             </section>
-
             <button class="btn">VIEW ALL MATCH >> </button>
+        </section>
+
+
+        <section class="back3 pt-4">
+            <div>
+                <div style="text-align: center; font-size: 3.5rem; padding-top: 5%;">Futio Quick Facts</div>
+                <div class="row container-fluid">
+                    <div class="col-3 card2">
+                        <div>1002</div>
+                        <div style="color: rgb(148, 203, 83);">Twitch Streams</div>
+                    </div>
+                    <div class="col-3 card2">
+                        <div>500</div>
+                        <div style="color: rgb(148, 203, 83);">Total Games</div>
+                    </div>
+                    <div class="col-3 card2">
+                        <div>370</div>
+                        <div style="color: rgb(148, 203, 83);">Youtube Streams</div>
+                    </div>
+                    <div class="col-3 card2">
+                        <div>77</div>
+                        <div style="color: rgb(148, 203, 83);">Pro Team</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="back4">
+            <div class="container-flid sfondo1 sfondo2">
+                <div>
+                    <div style="text-align: center;padding-top: 10%; ">
+                        <h3 style="color: rgb(148, 203, 83);">Live Streaming</h3>
+                        <div style="font-size: 3rem;">Watch The Streams</div>
+                        <div>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,</div>
+                        <div>convallis at tellus. Cras ultricies ligula sed magna dictum porta.</div>
+                        <div><img style="padding-top: 10%; width: 70%;" src="../assets/img/video-bg.png" alt=""></div>
+                        <h4 style="color: rgb(148, 203, 83);">Futio Feedback</h4>
+                        <div style="font-size: 3rem;">What Our Gamers</div>
+                        <div style="font-size: 3rem;">Say</div>
+                        <p>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,</p>
+                        <p>convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+                    </div>
+                </div>
+            </div>
+
 
         </section>
+
     </main>
 </template>
 
@@ -167,8 +230,7 @@
 <style scoped>
 .back2 {
     background-color: rgb(34, 40, 51);
-    width: 100%;
-    height: 1700px;
+    height: 2000px;
     color: white;
 }
 </style>
@@ -199,5 +261,48 @@
     height: 3%;
     padding: 5px;
     border-radius: 30px;
+}
+</style>
+
+<style scoped>
+.back3 {
+    background-color: black;
+    height: 600px;
+    color: white;
+}
+</style>
+
+<style scoped>
+.card2 {
+    border-radius: 60px;
+    border: 1px solid rgba(85, 111, 156, 0.4);
+    text-align: center;
+    padding: 8%;
+    width: 20%;
+    margin: 2%;
+    margin-left: 3%;
+}
+</style>
+
+<style scoped>
+.back4 {
+    background-color: black;
+    height: 1400px;
+    color: white;
+}
+</style>
+
+<style scoped>
+.sfondo1 {
+    background-image: url(../assets/img/live-streaming-bg.png);
+
+}
+</style>
+
+<style scoped>
+.sfondo2 {
+
+    background-image: url(../assets/img/streams-bg.png);
+    height: 60%;
 }
 </style>
