@@ -1,24 +1,4 @@
-<script>
-import Swiper from 'swiper';
-
-export default {
-    name: "AppMain",
-    data() {
-        return {
-            store
-        }
-    },
-    mounted() {
-
-
-
-    },
-    methods: {
-
-    }
-}
-</script>
-
+<script></script>
 
 <template>
     <main>
@@ -184,11 +164,35 @@ export default {
                         <div style="font-size: 3rem;">Say</div>
                         <p>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,</p>
                         <p>convallis at tellus. Cras ultricies ligula sed magna dictum porta.</p>
+                        <div class=" container-fluid row">
+                            <div class="card3">
+                                <div>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor.”</div>
+                                <div><img style="position: relative; top:45px; right: 74px;"
+                                        src="../assets/img/testimonials-image-1.png" alt=""></div>
+                                <span>Merle Fisher</span>
+                                <p style="color: rgb(148, 203, 83);">United State</p>
+                            </div>
+                            <div class=" card3">
+                                <div>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor.”</div>
+                                <div><img style="position: relative; top:45px; right: 74px;"
+                                        src="../assets/img/testimonials-image-2.png" alt=""></div>
+                                <span>Garry Francis</span>
+                                <p style="color: rgb(148, 203, 83);">Kiribati</p>
+                            </div>
+                            <div class="card3">
+                                <div>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor.”</div>
+                                <div><img style="position: relative; top:45px; right: 74px;"
+                                        src="../assets/img/testimonials-image-3.png" alt=""></div>
+                                <span>Kim Ramos</span>
+                                <p style="color: rgb(148, 203, 83);">Serbia</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
         </section>
 
     </main>
@@ -287,7 +291,7 @@ export default {
 <style scoped>
 .back4 {
     background-color: black;
-    height: 1400px;
+    height: 2000px;
     color: white;
 }
 </style>
@@ -304,5 +308,16 @@ export default {
 
     background-image: url(../assets/img/streams-bg.png);
     height: 60%;
+}
+</style>
+
+<style scoped>
+.card3 {
+    border-radius: 30px;
+    background-color: #283449;
+    padding: 3%;
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 9%;
 }
 </style>
