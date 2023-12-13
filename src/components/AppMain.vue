@@ -2,7 +2,7 @@
 
 <template>
     <main>
-        <section class="back1">
+        <section style="color: white;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-4" style="padding-top: 7%;"> <img class="scrivania"
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </section>
-        <section class=" back2" style="text-align: center; padding-top: 10%;">
+        <section class=" back" style="text-align: center; padding-top: 10%;">
             <div style="color: rgb(148, 203, 83); font-size: 2.3rem;">Trending Battle</div>
             <div style="font-size: 4.5rem;">Keep Eyes &</div>
             <div style="font-size: 4.5rem;">Manage Upcoming</div>
@@ -126,7 +126,7 @@
         </section>
 
 
-        <section class="back3 pt-4">
+        <section style="margin-bottom: 5%; color: white;" class=" pt-4">
             <div>
                 <div style="text-align: center; font-size: 3.5rem; padding-top: 5%;">Futio Quick Facts</div>
                 <div class="row container-fluid">
@@ -150,8 +150,8 @@
             </div>
         </section>
 
-        <section class="back4">
-            <div class="container-flid sfondo1 sfondo2">
+        <section class="back2">
+            <div class="container-fluid sfondo1 sfondo2">
                 <div>
                     <div style="text-align: center;padding-top: 10%; ">
                         <h3 style="color: rgb(148, 203, 83);">Live Streaming</h3>
@@ -159,7 +159,7 @@
                         <div>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,</div>
                         <div>convallis at tellus. Cras ultricies ligula sed magna dictum porta.</div>
                         <div><img style="padding-top: 10%; width: 70%;" src="../assets/img/video-bg.png" alt=""></div>
-                        <h4 style="color: rgb(148, 203, 83);">Futio Feedback</h4>
+                        <h4 style="color: rgb(148, 203, 83); padding-top: 10%;">Futio Feedback</h4>
                         <div style="font-size: 3rem;">What Our Gamers</div>
                         <div style="font-size: 3rem;">Say</div>
                         <p>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,</p>
@@ -191,20 +191,32 @@
                             </div>
                         </div>
                     </div>
+                    <div style="background-color: black;">
+                        <div class="col-12">
+                            <div style="text-align: center; padding-top: 15%;" class="greenCard">
+                                <h4 style="font-size: 2.5rem;">Make Offer</h4>
+                                <div style="font-size: 3.5rem;">Get 70% Offer Discount</div>
+                                <button class="get">Get Offer</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <div style="text-align: center; color:white; padding-top: 15%;">
+            <h3 style="color: rgb(148, 203, 83);">Latest News</h3>
+            <div style="font-size: 3rem;">Stay Updated With</div>
+            <div style="font-size: 3rem;">Our Latest News</div>
+            <div style="font-size: 3rem;">Articles</div>
+            <p>libero malesuada feugiat. Vivamus magna justo, lacinia eget</p>
+            <p>consectetur sed, convallis at tellus. Cras ultricies ligula sed magna</p>
+            <p>dictum porta.</p>
+        </div>
 
     </main>
 </template>
 
-<style scoped>
-.back1 {
-    background-color: black;
-    height: 1150px;
-    color: white;
-}
-</style>
+
 
 <style scoped>
 .scrivania {
@@ -224,7 +236,8 @@
 <style scoped>
 .play {
     background-color: rgb(7, 204, 124);
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 28%;
     padding: 6px;
     border-radius: 30px;
@@ -232,9 +245,9 @@
 </style>
 
 <style scoped>
-.back2 {
+.back {
     background-color: rgb(34, 40, 51);
-    height: 2000px;
+    height: 1800px;
     color: white;
 }
 </style>
@@ -269,14 +282,6 @@
 </style>
 
 <style scoped>
-.back3 {
-    background-color: black;
-    height: 600px;
-    color: white;
-}
-</style>
-
-<style scoped>
 .card2 {
     border-radius: 60px;
     border: 1px solid rgba(85, 111, 156, 0.4);
@@ -289,7 +294,7 @@
 </style>
 
 <style scoped>
-.back4 {
+.back2 {
     background-color: black;
     height: 2000px;
     color: white;
@@ -307,7 +312,7 @@
 .sfondo2 {
 
     background-image: url(../assets/img/streams-bg.png);
-    height: 60%;
+    height: 42%;
 }
 </style>
 
@@ -319,5 +324,26 @@
     width: 25%;
     margin-left: 6%;
     margin-top: 9%;
+}
+</style>
+
+<style scoped>
+.greenCard {
+    background-image: url(../assets/img/banner-item-bg.png);
+    width: 93%;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+</style>
+
+
+<style scoped>
+.get {
+    padding-top: 3%;
+    border-radius: 30px;
+    background-color: #1a8f3d;
+    padding: 15px 70px;
 }
 </style>
