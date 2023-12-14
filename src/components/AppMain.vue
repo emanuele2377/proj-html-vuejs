@@ -290,7 +290,7 @@
             </div>
         </section>
 
-        <section class="container ">
+        <section class="container">
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="iscrizioni">
@@ -490,6 +490,8 @@
     border-radius: 30px;
     background-color: #30405f;
     padding: 14%;
+    position: relative;
+    top: 36%;
 }
 </style>
 
@@ -500,3 +502,4 @@
     outline: 1px solid #556f9c;
 }
 </style>
+
