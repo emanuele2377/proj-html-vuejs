@@ -232,7 +232,7 @@
                 </div>
             </div>
 
-            <div class="col-6 container-fluid ">
+            <div class="col-6 container-fluid">
                 <div class="row">
                     <div class="card5">
                         <img style="width: 40%; border-radius: 20px; padding-right:5% ;" src="../assets/img/blog-item-2.png"
