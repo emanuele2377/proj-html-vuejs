@@ -213,6 +213,111 @@
             <p>dictum porta.</p>
         </div>
 
+        <section class="container-fluid row">
+            <div class="col-6">
+
+                <div class="card4">
+                    <img class="img" src="../assets/img/blog-item-1.png" alt="">
+                    <span style="color: rgb(148, 203, 83);" class="pe-4"><img class="pe-1"
+                            src="../assets/img/icon/clock.png" alt="">
+                        10 Min</span>
+                    <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1" src="../assets/img/icon/eye.png"
+                            alt=""> 240</span>
+                    <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                            src="../assets/img/icon/calendar.png" alt=""> Apr 11,2022</span>
+                    <div style="font-size: 2.5rem;" class="pt-4">Secrets To An</div>
+                    <div style="font-size: 2.5rem;"> Amazing Role Playing </div>
+                    <div style="font-size: 2.5rem;">Game</div>
+
+                </div>
+            </div>
+
+            <div class="col-6 container-fluid ">
+                <div class="row">
+                    <div class="card5">
+                        <img style="width: 40%; border-radius: 20px; padding-right:5% ;" src="../assets/img/blog-item-2.png"
+                            alt="">
+                        <span style="text-align:center;">
+                            <span style="color: rgb(148, 203, 83);" class="pe-4"><img class="pe-1"
+                                    src="../assets/img/icon/clock.png" alt="">
+                                10 Min</span>
+                            <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                                    src="../assets/img/icon/eye.png" alt=""> 240</span>
+                            <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                                    src="../assets/img/icon/calendar.png" alt=""> Apr 11,2022</span>
+
+                            <div style="font-size: 1.5rem; padding-left: 35%;">Top 5 Most Important</div>
+                            <div style="font-size: 1.5rem; padding-left: 35%;">Aspects Of Your Game</div>
+                        </span>
+                    </div>
+
+                    <div class="card5">
+                        <img style="width: 40%; border-radius: 20px; padding-right:5% ;" src="../assets/img/blog-item-3.png"
+                            alt="">
+                        <span style="text-align:center;">
+                            <span style="color: rgb(148, 203, 83);" class="pe-4"><img class="pe-1"
+                                    src="../assets/img/icon/clock.png" alt="">
+                                10 Min</span>
+                            <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                                    src="../assets/img/icon/eye.png" alt=""> 240</span>
+                            <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                                    src="../assets/img/icon/calendar.png" alt=""> Apr 11,2022</span>
+
+                            <div style="font-size: 1.5rem; padding-left: 35%;">
+                                The Rise Of Fantasy </div>
+                            <div style="font-size: 1.5rem; padding-left: 35%;">Sports And Online Games</div>
+                        </span>
+                    </div>
+
+                    <div class="card5">
+                        <img style="width: 40%; border-radius: 20px; padding-right:5% ;" src="../assets/img/blog-item-4.png"
+                            alt="">
+                        <span style="text-align:center;">
+                            <span style="color: rgb(148, 203, 83);" class="pe-4"><img class="pe-1"
+                                    src="../assets/img/icon/clock.png" alt="">
+                                10 Min</span>
+                            <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                                    src="../assets/img/icon/eye.png" alt=""> 240</span>
+                            <span style="color: rgb(148, 203, 83);" class="ps-4"><img class="pe-1"
+                                    src="../assets/img/icon/calendar.png" alt=""> Apr 11,2022</span>
+
+                            <div style="font-size: 1.5rem; padding-left: 35%;">Benefits Of Gaming - PC </div>
+                            <div style="font-size: 1.5rem; padding-left: 35%;">And Video Games</div>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container ">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="iscrizioni">
+                        <div class="row align-items-center">
+                            <div class="col-7">
+                                <h3>Subscribe Newsletter</h3>
+                                <p>libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at
+                                    tellus.</p>
+                            </div>
+                            <div class="col-5">
+                                <form action="#">
+                                    <div class="btnMail">
+
+                                        <span style="padding-left: 9%; padding-right: 3%;">Enter your email</span>
+                                        <img style="background-color: rgb(148, 203, 83);border-radius: 20px;"
+                                            src="../assets/img/icon/send-icon.png" alt="">
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 </template>
 
@@ -345,5 +450,53 @@
     border-radius: 30px;
     background-color: #1a8f3d;
     padding: 15px 70px;
+}
+</style>  
+
+<style scoped>
+.card4 {
+    border-radius: 20px;
+    background-color: rgba(85, 111, 156, 0.4);
+    padding: 8%;
+    width: 540px;
+    margin-left: 4%;
+    margin-top: 8%;
+
+}
+</style>
+
+<style scoped>
+.img {
+    width: 542px;
+    border-radius: 20px;
+    position: relative;
+    right: 11%;
+    bottom: 64px;
+}
+</style>
+
+<style scoped>
+.card5 {
+    margin-top: 5%;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: rgba(85, 111, 156, 0.4);
+}
+</style>
+
+<style scoped>
+.iscrizioni {
+    margin-top: 10%;
+    border-radius: 30px;
+    background-color: #30405f;
+    padding: 14%;
+}
+</style>
+
+<style scoped>
+.btnMail {
+    border-radius: 15px;
+    background-color: #425374;
+    outline: 1px solid #556f9c;
 }
 </style>

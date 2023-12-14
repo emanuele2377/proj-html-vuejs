@@ -1,8 +1,20 @@
 <script>
 
+</script>
 
-export default {
-    name: "AppFooter",
+
+<template>
+    <section>
+        <div class="madonna">
+
+        </div>
+    </section>
+</template>
+
+
+<style scoped>
+.madonna {
+    height: 700px;
 
 }
-</script>
+</style>
